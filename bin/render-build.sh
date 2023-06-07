@@ -2,6 +2,8 @@
 # exit on error
 set -o errexit
 
+export REACT_APP_RENDER_GIT_COMMIT=$RENDER_GIT_COMMIT
+
 # Build commands for front end to create the production build
 rm -rf public
 npm install --prefix client && npm run build --prefix client
