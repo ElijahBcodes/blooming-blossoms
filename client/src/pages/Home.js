@@ -6,10 +6,10 @@ const Home = () => {
     <div className="card lg:card-side bg-base-100 shadow-xl">
   <figure><img src="https://img1.wsimg.com/isteam/ip/98e17155-3559-4e6d-b002-a2e739e05177/Screenshot_2020-02-10%20elaina%20hitchcock%20(%20elain.png/:/" alt="Album"/></figure>
   <div className="card-body">
-    <h2 className="card-title">Welcome to Blooming Blossoms</h2>
+    <h2 className="card-title">Humming Blossoms Floral Studio</h2>
     <p>Click the button to learn more</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-primary">Listen</button>
+      <button className="btn btn-primary">Conact</button>
     </div>
   </div>
 </div>
